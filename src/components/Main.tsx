@@ -25,7 +25,7 @@ function Main() {
             <Button 
               variant="contained" 
               startIcon={<DownloadIcon />}
-              href="/TRIN_223443050_AndikaRianto_Eng.pdf" 
+              href={process.env.PUBLIC_URL + "/TRIN_223443050_AndikaRianto_Eng.pdf"}
               download="TRIN_223443050_AndikaRianto_Eng.pdf"
               sx={{ 
                 backgroundColor: '#5000ca',
