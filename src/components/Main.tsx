@@ -1,8 +1,6 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import DownloadIcon from '@mui/icons-material/Download'; // Tambahkan import icon
-import Button from '@mui/material/Button'; // Tambahkan import Button
 import '../assets/styles/Main.scss';
 
 function Main() {
@@ -20,26 +18,6 @@ function Main() {
           </div>
           <h1>Andika Rianto</h1>
           <p>Full Stack Engineer and IoT Developer</p>
-
-          <div className="cv-button-wrapper" style={{ marginTop: '20px', marginBottom: '20px' }}>
-            <Button 
-              variant="contained" 
-              startIcon={<DownloadIcon />}
-              href={process.env.PUBLIC_URL + "/TRIN_223443050_AndikaRianto_Eng.pdf"}
-              download="TRIN_223443050_AndikaRianto_Eng.pdf"
-              sx={{ 
-                backgroundColor: '#5000ca',
-                color: 'white !important', 
-                borderRadius: '25px',
-                padding: '10px 25px',
-                textTransform: 'none',
-                fontWeight: 'bold',
-                '&:hover': { backgroundColor: '#3a0096' } 
-              }} 
-            >
-              Download CV
-            </Button>
-          </div>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Arthuriant" target="_blank" rel="noreferrer"><GitHubIcon/></a>
